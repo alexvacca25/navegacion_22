@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:navegacion_22/ui/pages/addcliente.dart';
 import 'package:navegacion_22/ui/pages/adicionar.dart';
 import 'package:navegacion_22/ui/pages/login.dart';
 import 'package:navegacion_22/ui/pages/principal.dart';
@@ -17,7 +18,8 @@ class App extends StatelessWidget {
       routes: {
         '/login': (context) => const Login(),
         '/principal': (context) => const Principal(),
-        '/add': (context) => const Adicionar()
+        '/add': (context) => const Adicionar(),
+        '/addcliente': (context) => const AddClientes()
       },
     );
   }
